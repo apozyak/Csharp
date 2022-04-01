@@ -1,2 +1,2 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Карина самая лучшая");
+Console.WriteLine("2Hello, World!");
