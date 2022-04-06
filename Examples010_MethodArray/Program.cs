@@ -1,13 +1,16 @@
-﻿int [] array = {1, 13, 14, 12, 45, 33, 45};
+﻿int[]array = {1, 23, 35, 24, 6, 17, 52, 24, 83, 29};
 int n = array.Length;
-int find = 12;
+int find = 24;
 int index = 0;
 
 while (index < n)
 {
-    if (array[index] == find);
+    if(array[index] == find)
     {
     Console.WriteLine(index);
-    }   
-index = index + 1;
+    break;
+    }
+
+    index++;
 }
+
